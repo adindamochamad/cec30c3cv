@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 fig, ax= plt.subplots(2,2, figsize=(10, 12))
 
-jpg=plt.imread('D:\File ITTS S1 CE\SEMESTER 8\CEC30C3 Digital Computer Vision\Pertemuan 2\TUGAS 1\zevalente.jpg')
+jpg=plt.imread('zevalente.jpg')
 print("dimensi gambar {}".format(jpg.shape))
 
 jpg_red=jpg[:,:,0]
